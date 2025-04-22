@@ -1,5 +1,5 @@
 import os
-from schedule_manager import app
+from schedulemanager import app
 
 
 if __name__ == "__main__":

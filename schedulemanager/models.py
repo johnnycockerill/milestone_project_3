@@ -1,4 +1,4 @@
-from schedule_manager import db
+from schedulemanager import db
 
 
 class Service(db.Model):

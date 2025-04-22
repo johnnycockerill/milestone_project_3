@@ -1,6 +1,6 @@
 from flask import render_template
-from schedule_manager import app, db  # noqa
-from schedule_manager.models import Service, Vehicle  # noqa
+from schedulemanager import app, db  # noqa
+from schedulemanager.models import Service, Vehicle  # noqa
 
 
 @app.route("/")

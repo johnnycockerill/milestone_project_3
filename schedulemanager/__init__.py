@@ -17,4 +17,4 @@ else:
 
 db = SQLAlchemy(app)
 
-from schedule_manager import routes  # noqa
+from schedulemanager import routes  # noqa
