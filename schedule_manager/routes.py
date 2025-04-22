@@ -1,5 +1,5 @@
 from flask import render_template
-from taskmanager import app, db
+from schedule_manager import app, db  # noqa
 
 
 @app.route("/")
