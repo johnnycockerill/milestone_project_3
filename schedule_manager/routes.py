@@ -5,4 +5,4 @@ from schedule_manager.models import Service, Vehicle  # noqa
 
 @app.route("/")
 def home():
-    return render_template("base.html")
+    return render_template("vehicles.html")
